@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-down" width="13" height="7" tilewidth="70" tileheight="70" nextobjectid="44">
+ <tileset firstgid="1" name="1" tilewidth="70" tileheight="70" tilecount="91">
+  <image source="1.png" width="910" height="490"/>
+ </tileset>
+ <layer name="bg" width="13" height="7">
+  <data encoding="base64">
+   AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAADQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAAGQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAAkAAAAJQAAACYAAAAnAAAAKAAAACkAAAAqAAAAKwAAACwAAAAtAAAALgAAAC8AAAAwAAAAMQAAADIAAAAzAAAANAAAADUAAAA2AAAANwAAADgAAAA5AAAAOgAAADsAAAA8AAAAPQAAAD4AAAA/AAAAQAAAAEEAAABCAAAAQwAAAEQAAABFAAAARgAAAEcAAABIAAAASQAAAEoAAABLAAAATAAAAE0AAABOAAAATwAAAFAAAABRAAAAUgAAAFMAAABUAAAAVQAAAFYAAABXAAAAWAAAAFkAAABaAAAAWwAAAA==
+  </data>
+ </layer>
+ <objectgroup name="road" visible="0">
+  <object id="2" x="70" y="140"/>
+  <object id="3" x="210" y="140"/>
+  <object id="4" x="210" y="420"/>
+  <object id="5" x="630" y="420"/>
+  <object id="6" x="630" y="140"/>
+  <object id="7" x="770" y="140"/>
+ </objectgroup>
+ <objectgroup name="start_end" visible="0">
+  <object id="27" x="70" y="140"/>
+  <object id="28" x="770" y="140"/>
+ </objectgroup>
+ <objectgroup name="small">
+  <object id="9" name="S1" x="70" y="210"/>
+  <object id="10" name="S1" x="140" y="350"/>
+  <object id="11" name="S1" x="700" y="350"/>
+  <object id="12" name="S1" x="770" y="210"/>
+  <object id="13" name="S2" x="140" y="70"/>
+  <object id="14" name="S2" x="280" y="70"/>
+  <object id="15" name="S2" x="280" y="210"/>
+  <object id="16" name="S2" x="350" y="210"/>
+  <object id="17" name="S2" x="420" y="280"/>
+  <object id="18" name="S2" x="490" y="210"/>
+  <object id="19" name="S2" x="490" y="490"/>
+  <object id="20" name="S3" x="280" y="350"/>
+ </objectgroup>
+ <objectgroup name="little">
+  <object id="21" name="L3" x="560" y="350"/>
+  <object id="22" name="L3" x="350" y="490"/>
+ </objectgroup>
+ <objectgroup name="big">
+  <object id="25" name="B1" x="560" y="70"/>
+ </objectgroup>
+ <objectgroup name="invalid">
+  <object id="29" x="0" y="490"/>
+  <object id="30" x="70" y="490"/>
+  <object id="31" x="210" y="490"/>
+  <object id="32" x="140" y="490"/>
+  <object id="33" x="770" y="490"/>
+  <object id="34" x="840" y="490"/>
+ </objectgroup>
+</map>

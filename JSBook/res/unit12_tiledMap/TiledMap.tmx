@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="64" tileheight="64" nextobjectid="56">
+ <tileset firstgid="1" name="TiledMap" tilewidth="64" tileheight="64" spacing="2" margin="2">
+  <image source="TiledMap.png" width="530" height="398"/>
+  <tile id="30">
+   <properties>
+    <property name="isCactus" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="49" name="map" tilewidth="122" tileheight="122">
+  <image source="map.png" width="732" height="488"/>
+ </tileset>
+ <layer name="bg" width="15" height="10">
+  <data encoding="base64" compression="zlib">
+   eJyTY2BgkBvFo5jKGADAHBGV
+  </data>
+ </layer>
+ <layer name="obstacle" width="15" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhYIAKl5QnQojj0MwIxEx7MjEMfyFxOIObCg7mR7EcHgkAshAcL49Ang8N/6LQsDv3kAD0qmkUsAABc3QLV
+  </data>
+ </layer>
+ <layer name="animal" width="15" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIwWYIrGtoLQJkhgym1IAAE/EANg=
+  </data>
+ </layer>
+ <objectgroup name="hero_road">
+  <object id="31" name="point_0" x="96.2101" y="94.9526"/>
+  <object id="34" name="point_1" x="862.532" y="97.0643"/>
+  <object id="36" name="point_2" x="869.046" y="544.629"/>
+  <object id="39" name="point_3" x="159.725" y="547.466"/>
+ </objectgroup>
+</map>

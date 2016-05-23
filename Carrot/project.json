@@ -1,0 +1,46 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "noCache" : false,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d", "ccui"],
+
+    "jsList" : [
+        "src/resource.js",
+        "src/define.js",
+
+        "src/Data/LevelData.js",
+        "src/Manager/GameManager.js",
+
+        "src/Scene/MainMenu/Layer/Background.js",
+        "src/Scene/MainMenu/Layer/Main.js",
+        "src/Scene/MainMenu/Layer/Unlock.js",
+        "src/Scene/MainMenu/MainMenu.js",
+
+        "src/Scene/ChooseLevel/Node/RouteButtonEffect.js",
+        "src/Scene/ChooseLevel/Layer/Background.js",
+        "src/Scene/ChooseLevel/Layer/UI.js",
+        "src/Scene/ChooseLevel/ChooseLevel.js",
+
+
+        "src/Scene/GamePlay/Node/Monster/Monster.js",
+        "src/Scene/GamePlay/Node/Tower/TowerPanel.js",
+        "src/Scene/GamePlay/Node/Tower/TowerBase.js",
+        "src/Scene/GamePlay/Node/Tower/Bottle.js",
+        "src/Scene/GamePlay/Layer/Background.js",
+        "src/Scene/GamePlay/Layer/Main.js",
+        "src/Scene/GamePlay/Layer/UI.js",
+        "src/Scene/GamePlay/Layer/Menu.js",
+        "src/Scene/GamePlay/GamePlay.js",
+
+        "src/Scene/GameResult/Layer/Background.js",
+        "src/Scene/GameResult/Layer/Main.js",
+        "src/Scene/GameResult/GameResult.js"
+    ]
+}

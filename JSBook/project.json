@@ -1,0 +1,38 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "noCache" : false,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d", "ccui", "socketio", "ccpool", "chipmunk"],
+
+    "jsList" : [
+        "src/resource.js",
+
+        "src/unit03_base/unit03_base.js",
+        "src/unit04_action/unit04_action.js",
+        "src/unit05_event/Rocker.js",
+        "src/unit05_event/unit05_event.js",
+        "src/unit06_audio/unit06_audio.js",
+        "src/unit07_design/unit07_design.js",
+        "src/unit08_data/unit08_data.js",
+        "src/unit09_particle/unit09_particle.js",
+        "src/unit10_ui/unit10_ui.js",
+        "src/unit11_optimize/Node/SupportPoolHero.js",
+        "src/unit11_optimize/Layer/BakeLayer.js",
+        "src/unit11_optimize/Layer/BatchNodeLayer.js",
+        "src/unit11_optimize/Layer/CCPoolLayer.js",
+        "src/unit11_optimize/unit11_optimize.js",
+        "src/unit12_tiledMap/unit12_tiledMap.js",
+        "src/unit14_chipmunk/Layer/example.js",
+        "src/unit14_chipmunk/Node/MousePhysicsSprite.js",
+        "src/unit14_chipmunk/unit14_chipmunk.js",
+        "src/unit15_network/unit15_ChatDemo.js",
+        "src/unit15_network/unit15_network.js"
+    ]
+}

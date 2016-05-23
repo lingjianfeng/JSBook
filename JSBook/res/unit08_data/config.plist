@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>project_type</key>
+	<string>javascript</string>
+	<key>debugMode</key>
+	<integer>1</integer>
+	<key>showFPS</key>
+	<true/>
+	<key>frameRate</key>
+	<integer>60</integer>
+	<key>id</key>
+	<string>gameCanvas</string>
+	<key>renderMode</key>
+	<integer>0</integer>
+	<key>engineDir</key>
+	<string>frameworks/cocos2d-html5</string>
+	<key>modules</key>
+	<array>
+		<string>cocos2d</string>
+		<string>extensions</string>
+	</array>
+	<key>jsList</key>
+	<array>
+		<string>&quot;src/config.js&quot;,</string>
+		<string>&quot;src/resource.js&quot;</string>
+	</array>
+</dict>
+</plist>
